@@ -103,3 +103,39 @@ This task implements **gradient descent** to learn the parameters of a simple li
 
 
 ---
+# Task 5:
+# 🧠 Gradient Descent: Learning Rate Experiment
+
+This notebook explores how different learning rates affect the performance of the gradient descent algorithm on a simple quadratic cost function.
+
+---
+
+## 📌 Function Definition
+
+- Function:         `f(x) = x² + 1`  
+- Derivative:        `f′(x) = 2x`  
+
+---
+
+## 🎯 Objective
+
+Implement gradient descent for three different learning rates:
+
+- `0.01` → slow convergence  
+- `0.1` → optimal speed  
+- `0.5` → unstable or diverging  
+
+---
+
+## 📊 Output Visualization
+
+The plot compares how `x` changes over iterations under different learning rates:
+
+- 🟦 Blue: Learning rate = 0.01  
+- 🟧 Orange: Learning rate = 0.1  
+- 🟥 Red: Learning rate = 0.5  
+
+### 📸 Screenshot  
+<img width="838" height="554" alt="download" src="https://github.com/user-attachments/assets/1d15e514-12d7-4040-bf28-410a2dcc8037" />
+
+
