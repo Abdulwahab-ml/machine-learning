@@ -139,3 +139,93 @@ The plot compares how `x` changes over iterations under different learning rates
 <img width="838" height="554" alt="download" src="https://github.com/user-attachments/assets/1d15e514-12d7-4040-bf28-410a2dcc8037" />
 
 
+
+---
+
+
+# Task 6
+# 🧪 Tuple-based Hyperparameter Optimization in Linear Regression
+
+This project demonstrates how to use Python tuples to pass multiple hyperparameters (learning rate, epochs) into a simple linear regression model, and determine which combination gives the best result using gradient descent.
+
+---
+
+## 🧠 What This Code Does
+
+- Implements gradient descent for a line-fitting task (`y = 2x + 1`)
+- Accepts different `(learning_rate, epochs)` combinations via tuples
+- Tracks the cost (Mean Squared Error) for each combination
+- Identifies the best performing tuple with the lowest cost
+- Prints the best hyperparameters and final model weights
+
+---
+
+## 🔧 Example Hyperparameter Tuples
+
+```python
+hyperparams = [
+    (0.001, 500),
+    (0.01, 300),
+    (0.1, 100),
+    (0.05, 200),
+    (0.2, 80)
+]
+```
+
+---
+# 🏠 Mini Project: House Price Prediction using Linear Regression
+
+This mini-project combines multiple core concepts of optimization and machine learning using **NumPy** and **Matplotlib** — all implemented **from scratch**, without ML libraries.
+
+
+
+---
+# MINI PROJECT
+
+## 🚀 What This Project Does
+
+It simulates a **house price prediction** model using **linear regression**. The model learns the relationship between a house's **size** and its **price** through gradient descent.
+
+---
+
+## ✅ Concepts Applied
+
+| Feature | Applied |
+|--------|---------|
+| 🔢 Data Generation (NumPy) | ✅ |
+| 📊 Visualization (Subplots) | ✅ |
+| 🧮 Cost Function (MSE) | ✅ |
+| 🔁 Gradient Descent | ✅ |
+| ⚙️ Learning Rate Tuning | ✅ |
+
+---
+
+## 🛠 How It Works
+
+1. **Synthetic Data Generation**  
+   `x = house sizes`, `y = prices` generated using NumPy with some random noise.
+
+2. **Model Hypothesis**  
+   We predict price using:  
+   `ŷ = w * x + b`
+
+3. **Cost Function (MSE)**  
+   Measures average squared difference between predicted and actual prices.
+
+4. **Gradient Descent**  
+   We iteratively update weights to minimize the MSE.
+
+5. **Learning Rate Experimentation**  
+   Try values like `0.001`, `0.01`, `0.1`, and visualize convergence.
+
+---
+
+## 🖼 Output Graphs
+
+Using subplots to visualize:
+- Original Data vs Predictions  
+- Cost vs Epochs
+
+### 📸 Screenshot 
+<img width="1390" height="490" alt="download" src="https://github.com/user-attachments/assets/742481d1-c1be-4bc0-9324-7baaea5dd507" />
+
