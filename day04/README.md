@@ -71,3 +71,6 @@ This task covers:
 Example:
 - Predictions = [2.5, 0.0, 2.1, 7.8]  
 - Targets = [3.0, -0.5, 2.0, 7.5]
+### 📸 Screenshot
+<img width="394" height="44" alt="image" src="https://github.com/user-attachments/assets/d0b40a3a-4968-40dc-9fe1-dca298d5600d" />
+
