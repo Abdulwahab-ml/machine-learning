@@ -1,32 +1,39 @@
-# 📈 Polynomial Function & Its Derivative - Subplot Visualization
+# 📈 Polynomial Function & Its Derivative – Subplot Visualization
 
-This project uses Python (`NumPy` and `Matplotlib`) to:
-- Define a cubic polynomial function: `f(x) = 3x³ + 2x² − 5x + 7`
-- Apply the power rule to get its derivative: `f′(x) = 9x² + 4x − 5`
-- Plot both the function and its derivative **side-by-side** using **subplots**.
+This notebook uses Python with **NumPy** and **Matplotlib** to:
+
+- Define a cubic polynomial:  
+  \[
+  f(x) = 3x^3 + 2x^2 − 5x + 7
+  \]
+- Apply the **power rule** to calculate its derivative:  
+  \[
+  f'(x) = 9x^2 + 4x − 5
+  \]
+- Visualize both the original function and its derivative side-by-side using **subplots**.
 
 ---
 
 ## 🔍 Output Graph
 
-The figure below shows:
+The plot below shows:
+- **Left subplot**: The original function `f(x)`
+- **Right subplot**: Its derivative `f′(x)`
 
-- Left: Original function `f(x)`
-- Right: Derivative `f′(x)`
-
-### 📸 Screenshot
+### 📸 Screenshot  
 <img width="877" height="476" alt="download" src="https://github.com/user-attachments/assets/3db41e1e-bae8-4dc0-9951-ab1517bf409b" />
-
 
 ---
 
 ## 🛠 Requirements
 
-- Python 3.x
-- numpy
-- matplotlib
+To run this notebook, you’ll need:
 
-Install using:
+- Python 3.x
+- NumPy
+- Matplotlib
+
+Install packages using pip:
 
 ```bash
 pip install numpy matplotlib
