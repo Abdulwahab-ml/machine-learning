@@ -53,3 +53,21 @@ $\frac{d}{dx}(x^n) = nx^{n-1}$
 
 
 📎 *Basic stats practice using Python & math formula formatting with LaTeX.*
+---
+
+#  Task 3:
+## 📉 Introduction to Cost Functions (MSE)
+
+This task covers:
+
+- A simple implementation of the **Mean Squared Error (MSE)** cost function
+- Used two arrays: predictions and actual target values
+
+🧮 MSE Formula:
+\[
+\text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_{\text{pred}} - y_{\text{true}})^2
+\]
+
+Example:
+- Predictions = [2.5, 0.0, 2.1, 7.8]  
+- Targets = [3.0, -0.5, 2.0, 7.5]
