@@ -74,3 +74,32 @@ Example:
 ### 📸 Screenshot
 <img width="394" height="44" alt="image" src="https://github.com/user-attachments/assets/d0b40a3a-4968-40dc-9fe1-dca298d5600d" />
 
+---
+# Task 4:
+## 🔁 Linear Regression with Gradient Descent
+
+This task implements **gradient descent** to learn the parameters of a simple linear model:
+
+> y = 2x + 1
+
+---
+
+## 📌 What It Does
+
+- Generates synthetic data using `y = 2x + 1`
+- Initializes weights (`w`) and bias (`b`) to zero
+- Uses **gradient descent** to iteratively minimize the Mean Squared Error (MSE)
+- Plots the learned regression line over the original data
+
+---
+
+## 📉 Output Visualization
+
+- 🔵 Blue Dots: Original data points  
+- 🔴 Red Line: Best fit line learned by gradient descent
+
+### 📸 Screenshot  
+<img width="790" height="490" alt="download" src="https://github.com/user-attachments/assets/f82a7186-c9dd-47dd-aed6-10cfa363063d" />
+
+
+---
