@@ -1,4 +1,5 @@
-# 📈 Polynomial Function & Its Derivative – Subplot Visualization
+# Task 01:
+## 📈 Polynomial Function & Its Derivative – Subplot Visualization
 
 This notebook uses Python with **NumPy** and **Matplotlib** to:
 
@@ -12,9 +13,7 @@ This notebook uses Python with **NumPy** and **Matplotlib** to:
   \]
 - Visualize both the original function and its derivative side-by-side using **subplots**.
 
----
-
-## 🔍 Output Graph
+#### 🔍 Output Graph
 
 The plot below shows:
 - **Left subplot**: The original function `f(x)`
@@ -23,9 +22,7 @@ The plot below shows:
 ### 📸 Screenshot  
 <img width="877" height="476" alt="download" src="https://github.com/user-attachments/assets/3db41e1e-bae8-4dc0-9951-ab1517bf409b" />
 
----
-
-## 🛠 Requirements
+### 🛠 Requirements
 
 To run this notebook, you’ll need:
 
@@ -37,3 +34,22 @@ Install packages using pip:
 
 ```bash
 pip install numpy matplotlib
+```
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+# Task 2 
+## ✏️LaTeX Markdown & NumPy Stats
+
+This task includes:
+
+- A **Markdown cell** using LaTeX to explain the power rule:
+  
+$\frac{d}{dx}(x^n) = nx^{n-1}$
+- A **NumPy script** to:
+  - Generate 100 random numbers from a **normal distribution**
+  - Compute their **mean** and **standard deviation**
+  - ### 📸 Screenshot
+  - <img width="401" height="54" alt="image" src="https://github.com/user-attachments/assets/17f36769-6438-4f27-9f51-0b50d45e751e" />
+
+
+📎 *Basic stats practice using Python & math formula formatting with LaTeX.*
