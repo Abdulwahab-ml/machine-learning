@@ -1,55 +1,62 @@
-# 🐍 Python Basics – Output Screenshots
+# 🏡 California Housing – Regression & Visualizations  
 
-This section showcases the output of beginner Python tasks, including variables, lists, functions, object-oriented programming, and data visualization with `matplotlib`.
-
----
-
-## 📌 1. Variables & Strings  
-Stores name, age, and favorite language.
-
-<img width="321" height="80" alt="Variables Output" src="https://github.com/user-attachments/assets/69f204c6-c563-4b90-bf96-3256e2bc4ad5" />
+This project demonstrates data analysis and linear regression on the **California Housing Dataset** using Python. It covers data exploration, preprocessing, visualization, and statistical modeling.  
 
 ---
 
-## 📌 2. List Operations (Sum, Average, Sort)  
-Performs basic math operations on a list of numbers.
+## 📌 1. Dataset Import & Overview  
+Loads the California Housing dataset and inspects its features.  
 
-<img width="447" height="96" alt="List Operations Output" src="https://github.com/user-attachments/assets/0efe90ae-ac57-4c6f-94e1-529bd2606fbf" />
-
----
-
-## 📌 3. Functions Practice  
-Includes:
-- Square of a number  
-- Sum, product, and difference of two numbers  
-- Even/odd checker
-
-<img width="201" height="84" alt="Functions Output" src="https://github.com/user-attachments/assets/dd6c5cf0-971a-4d99-ab20-bc9b83775051" />
+<img width="400" alt="Dataset Overview" src="images/dataset_overview.png" />  
 
 ---
 
-## 📌 4. Random Numbers  
-Generates five random integers between 1 and 100.
+## 📌 2. Feature Exploration  
+Shows number of data points, feature names, and dataset description.  
 
-<img width="412" height="24" alt="Random Numbers Output" src="https://github.com/user-attachments/assets/68cd384c-c192-499a-92b3-dda1d5fc792e" />
-
----
-
-## 📌 5. Car Class and Objects  
-Demonstrates object-oriented programming with two `Car` objects and a method to describe each.
-
-<img width="174" height="25" alt="Car Class Output" src="https://github.com/user-attachments/assets/96c25a9c-3095-4d11-b919-04d5d4e38a20" />
+<img width="500" alt="Features Overview" src="images/features.png" />  
 
 ---
 
-## 📌 6. Matplotlib Line Graph  
-Line graph showing temperature over 7 days.
+## 📌 3. DataFrame Conversion  
+Converts dataset into a **Pandas DataFrame** for easier analysis.  
 
-<img width="755" height="547" alt="Temperature Line Graph" src="https://github.com/user-attachments/assets/a1286f7e-29c0-40c0-8c1b-fdca5092baff" />
+<img width="450" alt="DataFrame Head" src="images/dataframe_head.png" />  
 
 ---
 
-## 📌 7. Matplotlib Bar Chart  
-Bar chart displaying weekly expenses.
+## 📌 4. Correlation Heatmap  
+Visualizes relationships between features using **Seaborn heatmap**.  
 
-<img width="799" height="553" alt="Bar Chart Output" src="https://github.com/user-attachments/assets/781d678a-a1fd-483b-84ce-48322f557d89" />
+<img width="700" alt="Correlation Heatmap" src="images/heatmap.png" />  
+
+---
+
+## 📌 5. Linear Regression (Scikit-learn)  
+Applies Linear Regression to predict house values.  
+
+<img width="400" alt="Linear Regression Results" src="images/linear_regression.png" />  
+
+---
+
+## 📌 6. Regression with Statsmodels  
+Uses **Statsmodels** for detailed regression analysis and coefficient interpretation.  
+
+<img width="500" alt="Statsmodels Summary" src="images/statsmodels_summary.png" />  
+
+---
+
+## 📌 7. Train/Test Split & Evaluation  
+Splits the dataset into training and testing sets to evaluate performance.  
+
+<img width="400" alt="Train Test Split" src="images/train_test.png" />  
+
+---
+
+## 📈 Final Results  
+- Explored **8 features** of California housing data  
+- Built Linear Regression model using `sklearn`  
+- Performed statistical analysis with `statsmodels`  
+- Visualized feature relationships and regression outputs  
+
+---
